@@ -26,7 +26,7 @@ export const Navigation: FunctionComponent = () => {
 
   return (
     <nav>
-      <div className="hidden md:flex items-center">
+      <div className="hidden md:flex items-center sticky top-5">
         {menuItems.map((item) => (
           <div key={item.href} className="ml-4 md:ml-8">
             <a
